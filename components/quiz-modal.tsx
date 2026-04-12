@@ -155,7 +155,7 @@ export function QuizModal({ isOpen, onClose }: QuizModalProps) {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
       {/* Backdrop */}
       <div 
-        className="absolute inset-0 bg-[#7c6bc4]"
+        className="absolute inset-0 bg-black/60 backdrop-blur-md"
         onClick={handleClose}
       />
       
