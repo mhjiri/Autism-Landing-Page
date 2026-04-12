@@ -77,7 +77,7 @@ export function HeroSection() {
               onClick={() => setIsQuizOpen(true)}
               className="gradient-border-btn h-14 rounded-[5px] bg-[#0b1539] px-6 text-sm font-medium text-white hover:bg-[#0b1539]/90 md:px-8 md:text-base"
             >
-              Take a Quiz and assess
+              Take Autism Quiz
             </Button>
           </div>
         </div>
