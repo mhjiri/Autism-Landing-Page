@@ -1,7 +1,3 @@
-"use client"
-
-import { Button } from "@/components/ui/button"
-
 export function ContributionsSection() {
   return (
     <section className="relative w-full">
@@ -24,18 +20,6 @@ export function ContributionsSection() {
             <p className="mt-4 text-base leading-relaxed text-white/80 md:text-lg">
               Autism exists on a spectrum, meaning that each person&apos;s strengths, challenges and needs are unique.
             </p>
-
-            <div className="relative mt-10 inline-block md:mt-12">
-              {/* Soft glow effect */}
-              <span className="absolute -inset-1 animate-pulse rounded-[7px] bg-white/10" style={{ animationDuration: '3s' }} />
-              <span className="absolute -inset-0.5 animate-pulse rounded-[6px] bg-white/5" style={{ animationDuration: '3s', animationDelay: '0.5s' }} />
-              <Button
-                variant="outline"
-                className="relative h-14 rounded-[5px] border-white/50 bg-transparent px-8 text-base font-normal text-white hover:bg-white/10 hover:text-white"
-              >
-                Our Research at Glance
-              </Button>
-            </div>
           </div>
 
           {/* Right Content - 4 Info Boxes */}
