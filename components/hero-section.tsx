@@ -44,19 +44,15 @@ export function HeroSection() {
         <div className="flex flex-1 flex-col items-center justify-center px-4 pb-32 pt-8 text-center sm:px-6 sm:pt-0 sm:-mt-28 md:pb-40 md:-mt-36">
           <h1 className="max-w-4xl text-balance leading-tight">
             <span className="block text-[2.5rem] leading-[1.1] sm:text-[3rem] md:text-[3.85rem] lg:text-[4.5rem] xl:text-[5.3rem]">
-              <span className="font-black text-shine">April</span>{" "}
-              <span className="font-normal text-shine">is</span>{" "}
-              <span className="font-black text-shine">Autism</span>
+              <span className="font-black text-shine">SHOWING UP</span>
             </span>
             <span className="block text-[2.5rem] font-black text-shine leading-[1.1] sm:text-[3rem] md:text-[3.85rem] lg:text-[4.5rem] xl:text-[5.3rem]">
-              Awareness Month
+              FOR AUTISM
             </span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-white/90 md:text-lg lg:mt-8 lg:max-w-2xl">
-            At Hamad Bin Khalifa University, we bring together experts, researchers,
-            and communities to deepen understanding of autism, advance research,
-            and drive meaningful impact across Qatar and beyond.
+            From research to innovation and day-to-day action, we come together to raise awareness and create a community that supports, understands and enables individuals with autism.
           </p>
 
           {/* CTA Buttons */}
